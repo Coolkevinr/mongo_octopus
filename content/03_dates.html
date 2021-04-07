@@ -313,7 +313,7 @@ Le fichier que vous devez modifier pour ce chapitre est <code class="docutils li
 <p>Utilisation d’un objet date au format string</p>
 <p>Exemple requête simple date en format string. On veut récupérer la liste des individus dont l’attribut date est supérieur à une date créée.</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">madate</span> <span class="o">=</span> <span class="s2">&quot;&lt;YYYY-mm-dd&gt;&quot;</span>
-<span class="nx">db</span><span class="p">.</span><span class="nx">coll</span><span class="p">.</span><span class="nx">find</span><span class="p">({</span><span class="s2">&quot;varDateString&quot;</span> <span class="o">:</span> <span class="p">{</span><span class="nx">$gt</span> <span class="o">:</span> <span class="s2">&quot;madate&quot;</span><span class="p">}})</span>
+<span class="nx">db</span><span class="p">.</span><span class="nx">coll</span><span class="p">.</span><span class="nx">find</span><span class="p">({</span><span class="s2">&quot;varDateString&quot;</span> <span class="o">:</span> <span class="p">{</span><span class="nx">$gt</span> <span class="o">:</span> <span class="nx">madate</span><span class="p">}})</span>
 </pre></div>
 </div>
 <p>Exemple Requête simple date en format Date dans la db <code class="docutils literal notranslate"><span class="pre">food</span></code>. On veut récupérer la liste des restaurants dont la date de la note est supérieure à une date créée.</p>
