@@ -319,7 +319,13 @@ Le fichier que vous devez modifier pour ce chapitre est <code class="docutils li
 <h2><span class="section-number">3.1. </span>Exemples d’applications<a class="headerlink" href="#exemples-d-applications" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="utilisation-d-un-objet-date-au-format-string">
 <h3><span class="section-number">3.1.1. </span>Utilisation d’un objet date au format string<a class="headerlink" href="#utilisation-d-un-objet-date-au-format-string" title="Permalink to this headline">¶</a></h3>
-<p>Si le format de la date est un string alors les requêtes sur les dates se feront en format string. <code class="docutils literal notranslate"><span class="pre">test</span></code></p>
+<p>Requête date en format string.
+Exemple sur une requête find.</p>
+<div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">db</span><span class="p">.</span><span class="nx">coll</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span>
+	<span class="p">{</span><span class="s2">&quot;varDateString&quot;</span> <span class="o">:</span> <span class="s2">&quot;ma date&quot;</span><span class="p">}</span>
+<span class="p">)</span>
+</pre></div>
+</div>
 </div>
 </div>
 </div>

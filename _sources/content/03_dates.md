@@ -22,5 +22,12 @@ Le fichier que vous devez modifier pour ce chapitre est `mongo_book/content/03_d
 
 ## Exemples d'applications
 ### Utilisation d'un objet date au format string
-Si le format de la date est un string alors les requêtes sur les dates se feront en format string. `test`
+Requête date en format string.
+Exemple sur une requête find.
+
+```javascript
+db.coll.find(
+	{"varDateString" : "ma date"}
+)
+```
 
