@@ -26,7 +26,7 @@ Utilisation d'un objet date au format string
 Exemple requête simple date en format string. On veut récupérer la liste des individus dont l'attribut date est supérieur à une date créée.
 ```javascript
 madate = "<YYYY-mm-dd>"
-db.coll.find({"varDateString" : {$gt : "madate"}})
+db.coll.find({"varDateString" : {$gt : madate}})
 ```
 Exemple Requête simple date en format Date dans la db `food`. On veut récupérer la liste des restaurants dont la date de la note est supérieure à une date créée.
 ```javascript
