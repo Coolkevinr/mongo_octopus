@@ -32,6 +32,11 @@ db.coll.find({"varDateString" : {$gt : madate}})
 Utilisation d'un objet date au format Date.
 
 Exemple d'une requête simple dans la db `food`. On veut récupérer la liste des restaurants dont la date de la note est supérieure à une date créée.
+
+tu vois Gaston
+COUCOU
+
+
 ```javascript
 madate = new Date("<YYYY-mm-dd>")
 db.NYfood.find({"grades.date": {$gt : madate}})
