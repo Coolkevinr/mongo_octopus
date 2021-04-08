@@ -318,7 +318,8 @@ Le fichier que vous devez modifier pour ce chapitre est <code class="docutils li
 </div>
 <p>Utilisation d’un objet date au format Date.</p>
 <p>Exemple d’une requête simple dans la db <code class="docutils literal notranslate"><span class="pre">food</span></code>. On veut récupérer la liste des restaurants dont la date de la note est supérieure à une date créée.</p>
-<p>tu vois Gaston</p>
+<p>tu vois Gaston
+COUCOU</p>
 <div class="highlight-javascript notranslate"><div class="highlight"><pre><span></span><span class="nx">madate</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Date</span><span class="p">(</span><span class="s2">&quot;&lt;YYYY-mm-dd&gt;&quot;</span><span class="p">)</span>
 <span class="nx">db</span><span class="p">.</span><span class="nx">NYfood</span><span class="p">.</span><span class="nx">find</span><span class="p">({</span><span class="s2">&quot;grades.date&quot;</span><span class="o">:</span> <span class="p">{</span><span class="nx">$gt</span> <span class="o">:</span> <span class="nx">madate</span><span class="p">}})</span>
 </pre></div>
